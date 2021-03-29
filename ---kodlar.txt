@@ -1,0 +1,13 @@
+
+ng new ------ : Yeni bir angular sayfası oluşturur
+ng serve --open  : Sayfayı çalıştırır.
+npm install ----- : modül yükler.(bootstrap@5.0.0-beta2)
+ng g component --- : component(bileşen) oluşturur.
+ng g service --- : servis oluşturur.
+
+-----Hatalar-----
+CORS policy : Backend'ciler bu veriye erişilebilmek için ayar yapmamış.
+C# WebApi-->Startup-->services.AddCors() eklenmeli 
+app.UseCors(builder => builder.WithOrigins("http://localhost:XXXX/").AllowAnyHeader());
+
+test veriler : https://jsonplaceholder.typicode.com/
